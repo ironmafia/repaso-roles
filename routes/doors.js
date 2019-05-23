@@ -15,4 +15,8 @@ router.get('/artist', checkRole("Artist"), (req, res, next) => {
   res.render('doors/artist');
 });
 
+router.get('/pepe', (req, res, next) => {
+  res.render("index");
+});
+
 module.exports = router;
