@@ -15,7 +15,7 @@ router.get('/artist', checkRole("Artist"), (req, res, next) => {
   res.render('doors/artist');
 });
 
-router.get('/German', (req, res, next) => {
+router.get('/popino', (req, res, next) => {
   res.render("index");
 });
 
