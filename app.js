@@ -83,6 +83,9 @@ app.use('/auth', authRoutes);
 
 const doorsRoutes = require("./routes/doors");
 app.use("/doors", doorsRoutes)
+
+const doorsRoutes = require("./routes/pepe");
+app.use("/pepe", doorsRoutes)
       
 
 module.exports = app;
